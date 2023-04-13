@@ -25,3 +25,14 @@ string[] RemoveValuesInArrayWithLengthGreaterThanThree(string[] array)
     }
     return newArray;
 }
+void PrintArrayWithStrings(string[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write(array[i] + " ");
+    }
+}
+
+string[] newArray = RemoveValuesInArrayWithLengthGreaterThanThree(startArray);
+
+PrintArrayWithStrings(newArray);
